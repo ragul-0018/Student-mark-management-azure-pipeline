@@ -15,5 +15,5 @@ steps:
     displayName: 'Install dependencies'
 
   - script: |
-      streamlit run app.py
-    displayName: 'Run Streamlit App'
+      python -m py_compile app.py
+    displayName: 'Check for syntax errors'
